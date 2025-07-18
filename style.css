@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+*{
+    font-family: "Roboto", sans-serif;
+    font-size: 10px
+}
+
+.caja-maestra{
+    margin: auto;
+    margin-top: 40px;
+    height: 80vh;
+    width: 30vw;
+    background-color: rgb(0, 255, 242);
+}
+
+.header-post{
+    display: flex;
+    height: 10%;
+}
+
+.header-post p{
+    text-align: left;
+}
+
+.html-icon{
+    display: flex;
+    height: 100%;
+    width: 30px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.settings{
+    display: flex;
+    height: 100%;
+    width: 30px;
+    margin-left: auto;
+    align-items: center; 
+}
+
+.body-post{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+}
+
+.body-post img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer-post{
+    padding: 10px;
+}
+
+.post-interactions{
+    display: flex;
+    height: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.post-interactions span{
+    display: flex;
+    height: 100%;
+    width: 30px;
+    justify-content: flex-start;
+}
+
+.post-interactions span:nth-child(4){
+    justify-content: flex-end;
+    margin-left: auto;
+}
